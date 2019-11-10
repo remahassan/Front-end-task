@@ -1,0 +1,206 @@
+img
+{
+    width: 100%;
+}
+.deal {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.block {
+    position: relative;
+    margin-top: 40px;
+}
+.sub-title {
+    font-size: 18px;
+    color: #333;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0 0 45px;
+    display: block;
+    font-weight: 500;
+
+}
+.title {
+    font-size: 50px;
+    color: #2a2a2a;
+    text-transform: uppercase;
+}
+
+
+.price-box {
+    margin: 5px 0;
+}
+.price {
+    font-size: 20px;
+    font-weight: 500;
+}
+.current-price {
+    margin: 0;
+    padding: 0 15px 0 0;
+    display: inline-block;
+    line-height: 20px;
+}
+.old-price {
+    margin: 0;
+    display: inline-block;
+}
+.old-price .price {
+    color: #3b3b39;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.discount {
+    font-size: 16px;
+    line-height: 24px;
+}
+.shop-now a {
+    border: 2px solid #242628;
+    color: #242628;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 4px;
+    padding: 0 39px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul.countdown {
+    list-style: none;
+    margin: 53px 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+  
+  ul.countdown li {
+       display: inline-block;
+       border: 1px solid #a7abb1;
+    }
+  
+  ul.countdown li span {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 51px;
+    padding: 6px 20px;
+    /* border-left: 0; */
+
+    
+    margin-left: -4px;
+  }
+  ul.countdown li:nth-child(4) ,ul.countdown li:nth-child(2) ,ul.countdown li:nth-child(3)
+  {
+      border-left: 0;
+  }
+  
+  
+  ul.countdown li p {
+    color: #242628;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+  }
+  
+  
+  
+  @media only screen and (max-width: 597px) and (min-width: 400px)  {
+
+  
+    .title{font-size: 25px;}
+    .sub-title{font-size: 8px;margin: 0 0 15px;}
+    ul.countdown{display: none;}
+    .shop-now a {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 2px;
+        padding: 0 32px;
+        
+    }
+    .old-price .price {
+       
+        font-size: 18px;
+        font-weight: 400;
+       
+    }
+    .discount {
+        font-size: 14px;
+        
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 767px) and (min-width: 596px) {
+    .title{font-size: 20px;}
+    .sub-title{display: none;}
+
+    ul.countdown {margin: 10px 0;}
+    ul.countdown li p {font-size: 8px;margin-bottom: 0px;}
+    ul.countdown li span {font-size:16px;}
+    .shop-now a {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 2px;
+        padding: 0 22px;
+        
+    }
+    .old-price .price {
+       
+        font-size: 12px;
+        font-weight: 400;
+       
+    }
+    .discount {
+        font-size: 10px;
+       
+    }
+    .price-box{margin-bottom: -8px;}
+
+    
+  
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  
+  @media only screen and (min-width: 768px) and (max-width: 1280px){
+   
+    .title{font-size: 30px;}
+    .sub-title{font-size: 12px;margin: 0 0 20px;}
+    ul.countdown {margin: 20px 0;}
+    ul.countdown li p {font-size: 12px;margin-bottom: 0px;}
+    ul.countdown li span {font-size: 20px;padding: 6px 15px;}
+    .shop-now a {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 2px;
+        padding: 0 32px;
+        
+    }
+    .old-price .price {
+       
+        font-size: 18px;
+        font-weight: 400;
+       
+    }
+    .discount {
+        font-size: 14px;
+        
+    }
+    
+
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1001px) {
+   
+  
+  
+  
+  
+  
+  } 

@@ -1,0 +1,108 @@
+footer
+{
+    background: #333;
+    color: #abaeb8;
+    padding: 20px 0;
+}
+li
+{
+    font-size: 12px;
+}
+h3
+{
+    color: #fff;
+    border-bottom: 1px solid #abaeb8;
+    padding-bottom: 7px;
+    font-family: "oldenburg";
+    font-size: 16px;
+}
+
+
+i
+    {
+        width: 30px;
+        height: 30px;
+        line-height: 30px !important;
+        text-align: center;
+        color: #fff;
+        margin-right: 6px;
+        
+    }
+
+.Abani i
+{
+    color: #888 !important  ;
+}
+.marked
+{
+    float: left;
+}
+.contact
+{
+    color: #b86f6f !important; 
+}
+    i.footer-icon:nth-of-type(1)
+    {
+        background: #3b5998;
+        color: #fff !important;
+    }
+    i.footer-icon:nth-of-type(4)
+    {
+        background: #07779b;
+        color: #fff !important;
+    }   
+    i.footer-icon.tiwtter
+    {
+        background: #55acee !important;
+        color: #fff !important;
+    }
+    i.footer-icon:nth-of-type(3)
+    {
+        background: #ff0000;
+        color: #fff !important;
+    }
+
+    .Abani span
+    {
+        text-transform: uppercase;
+    }
+    .line
+    {
+        bottom: 9px;
+        width: 50px;
+        height: 1px;
+        opacity: 0.8;
+        background-color: #fff;
+        display: block;
+        position: relative;
+    }
+    .list-styled{
+        list-style-type: square;
+        padding-left: 15px;
+    }
+    .list-styled li
+{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+img
+    {
+        width: 50px;
+        height: 50px;
+        padding: 1px;
+        margin: 1px;
+        
+    }
+    .image
+    {
+        float: left;
+        margin-right: 9px;
+    }
+    .details
+    {
+        list-style: none;
+    }
+    .feature
+    {
+        margin-bottom: 20px;
+    }

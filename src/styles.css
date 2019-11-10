@@ -1,0 +1,13 @@
+@font-face {
+    font-family: sourceCodePro;
+    src: url("assets/font/SourceCodePro-Regular.otf") format("opentype");
+  }
+
+@font-face {
+    font-family: oldenburg;
+    src: url("assets/font/Oldenburg.otf") format("opentype");
+  }
+  * 
+  {
+    box-sizing: border-box;
+  }

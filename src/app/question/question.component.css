@@ -1,0 +1,98 @@
+.question
+{
+    background-color: #b86f6f;
+}
+.main {
+    padding: 20px 0;
+    text-align: left;
+}
+.block-newletter {
+    text-align: center;
+}   
+.block {
+    margin: 0;
+    padding: 0;
+}
+form {
+    display: inline;
+}
+.block-content {
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+.form-subscribe-header{
+    float: left;
+    width: auto;
+    margin-top: 4px;
+}
+p , span{
+    color: #fff;
+}
+.input-box {
+    padding-left: 50px;
+
+float: left;
+    width: auto;
+}
+input.input-text {
+    border-color: #fff;
+    background-color: #B86F6F !important;
+    margin-right: 0;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    margin: 0;
+    width: 300px;
+    border: 2px solid #fff;
+    float: left;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.actions {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.button {
+    background-color: #fff;
+    color: #B86F6F;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #B86F6F;
+    cursor: pointer;
+}
+
+button.button span {
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+}
+::placeholder { 
+    color: #f1ecec;
+    font-weight: 200;
+    font-size: 12px;
+    opacity: 0.5;
+    
+  }
+  i
+  {
+    color: #B86F6F;
+  }
+  p span
+  {
+      font-weight: 500;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1280px){
+    input.input-text {width: 280px;}
+    .input-box {
+        padding-left: 20px;}
+
+
+  }

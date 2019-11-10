@@ -1,0 +1,30 @@
+<div class="container">
+      <div class="row">
+        <div class="trending col-lg-12">
+            <div class="title">
+              <h2>
+                <span class="title-content">New Trending</span>
+                <span class="title-icon"><i class="fas fa-award"></i>
+                </span>
+              </h2>
+            </div>
+            <div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-lg-1"></div>
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12" *ngFor="let product of products">
+            <div class="card">
+                <img class="img-responsive" src={{product.img}} style="width:100%">
+                <p class="product-name">{{product.name}}</p>
+                <p class="price">&#8356;{{product.price}}</p>
+                <p> <star-rating value={{product.rate}} checkedcolor="orange" uncheckedcolor="gray" size="15px"    readonly="true" (rate)="onRate($event)"></star-rating>
+                </p>
+              </div>
+        </div>
+
+      </div>
+    </div>
+  

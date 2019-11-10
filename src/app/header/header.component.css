@@ -1,0 +1,212 @@
+.navbar {
+    padding: 0;
+    border-bottom: 1px solid #d9dadc;
+    position: fixed;
+    width:100%;
+    z-index: 999;
+    background-color: transparent !important;
+}
+.navbar-brand{
+    font-size: 30px;
+color: #242628;
+font-family: "oldenburg";
+font-weight: 400;
+margin-left: 52px;
+border-right: 1px solid #d9dadc;
+padding-right: 20px;
+}
+
+.active a::after {
+    border-bottom: 2px solid #b86f6f;
+    bottom: -8px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+
+  li.active a
+  {
+      color:#b86f6f !important;
+  }
+
+ul.navbar-nav{
+    margin-left: 50px;
+}
+li.items a 
+{
+    font-size: 18px;
+    font-family: "SourceCodePro";
+  color: rgb( 36, 38, 40 ) !important;
+  
+    text-transform: uppercase;
+    line-height: 1.389;
+    text-align: left;
+}
+.navbar-nav > li.items{
+    padding-left:15px;
+    padding-right:15px;
+    position: relative;
+  }
+li.icon:nth-child(1)
+{ 
+padding: 7px 10px;
+border-right: 1px solid #d9dadc;
+border-left: 1px solid #d9dadc;
+}
+li.icon:nth-child(2)
+{ 
+padding: 7px 10px;
+border-right: 1px solid #d9dadc;
+
+}
+li.icon:nth-child(3)
+{ 
+padding: 7px 10px;
+border-right: 1px solid #d9dadc;
+background-color: #b86f6f;
+
+}
+li.icon:nth-child(4)
+{ 
+padding: 7px 10px;
+border-right: 1px solid #d9dadc;
+
+}
+li.icon:nth-child(3) a{
+color: white;
+}
+
+img
+{
+    width: 119%;
+    height: 50%;
+}
+
+
+.carousel-caption {
+    width: 40%;
+    position: absolute;
+    right: 15%;
+    top: 24%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: left;
+}
+h1
+{
+    font-size: 206px;
+    font-family: "SourceCodePro";
+    color: rgb( 36, 38, 40 );
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.carousel-indicators li {
+    background-color: black;
+  }
+
+.title
+{
+  font-size: 65px;
+  font-family: "SourceCodePro";
+  color: rgb( 36, 38, 40 );
+  line-height: 0.308;
+  
+  
+}
+.title span
+{
+    color:#b86f6f !important;
+    font-weight: 800;
+}
+.subtitle
+{
+    font-size: 27px;
+  font-family: "SourceCodePro";
+  color: rgb( 36, 38, 40 );
+  text-transform: uppercase;
+  line-height: 1.741;
+
+}
+.anchor
+{
+    font-size: 20px;
+  font-family: "Stroke";
+  color: rgb( 36, 38, 40 );
+  line-height:3.5;
+}
+.btn
+{
+    font-size: 18px;
+  font-family: "SourceCodePro";
+  color: rgb( 184, 111, 111 );
+  text-transform: uppercase;
+  line-height: 1.111;
+  text-align: center;
+  border: 2px solid rgb( 184, 111, 111 );
+  border-radius: 0;
+  width: 178px;
+}
+.sticky
+{
+    background-color: #ffffff  !important;
+}
+.iconlist
+{
+  display: inline;
+}
+
+@media only screen and (max-width: 519px) and (min-width: 400px)  {
+  .iconlist {display: none;}
+  .navbar{background-color: #ffffff !important;}
+  h1{ font-size: 50px;}
+  .title{font-size: 10px;}
+  .subtitle{font-size: 10px;}
+  .anchor{font-size: 9px;}
+  .btn{font-size: 12px;  width: 90px;}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) and (min-width: 520px) {
+  .iconlist {display: none;}
+  .navbar{background-color: #ffffff !important;}
+  h1{ font-size: 50px;}
+  .title{font-size: 10px;}
+  .subtitle{font-size: 10px;}
+  .anchor{font-size: 9px;}
+  .btn{font-size: 12px;  width: 90px;}
+
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 1280px){
+  .iconlist {display: block;}
+  .items a.nav-link{text-align: center !important;}
+  .iconlist a.nav-link{text-align: center !important; padding-left: 52px;}
+  .navbar{background-color: #ffffff !important}
+  h1{ font-size: 120px;}
+  .title{font-size: 20px;}
+  .subtitle{font-size: 20px;}
+  .anchor{font-size: 20px;}
+  .btn{font-size: 17x;  width: 120px;}
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1001px) {
+  .iconlist {display: block;}
+  .iconlist a.nav-link{ padding-left: 0px;}
+  .navbar{background-color: #ecedf0 !important }
+
+
+
+
+
+} 

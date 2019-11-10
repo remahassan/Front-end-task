@@ -1,0 +1,23 @@
+.copy
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text
+{
+    float: left;
+}
+.image
+{
+    float: right;
+}
+p
+{
+    font-weight: lighter;
+    font-size: 12px;
+    word-spacing: 3px;
+}
+span
+{
+    color: #b86f6f ;
+}

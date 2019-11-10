@@ -1,0 +1,12 @@
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+li
+{
+    
+        float: left;
+        list-style: none;
+        position: relative;
+        width: 182px;
+    }
