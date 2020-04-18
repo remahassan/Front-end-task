@@ -1,13 +1,14 @@
 {
   "name": "task",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postintall": "ng build --prod --aot"
   },
   "private": true,
   "dependencies": {
@@ -49,5 +50,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.5.3"
+  },
+  "engines": {
+    "node" : "6.10.3",
+    "npm" : "3.10.10"
   }
 }
