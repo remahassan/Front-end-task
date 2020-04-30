@@ -27,7 +27,7 @@
     "angular-font-awesome": "^3.1.2",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng-starrating": "^1.0.7",
     "rxjs": "~6.5.3",
     "tslib": "^1.9.0",
